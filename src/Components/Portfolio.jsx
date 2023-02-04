@@ -31,29 +31,29 @@ const imageAltText = "desktop with books and laptop";
  */
 const projectList = [
   {
-    title: "10 Things To Know About Azure Static Web Apps 🎉",
+    title: "Oferta de Desarrollo TechSavvy",
     description:
-      "Collaboration to create a beginner friendly article to help explain Azure Static Web Apps and tooling to get started.",
+      "We are pioneers in technology use that is why we provide you with tools and learning resources to boost the development of new skills.",
     url: "https://dev.to/azure/10-things-to-know-about-azure-static-web-apps-3n4i",
   },
   {
-    title: "Web Development for Beginners",
+    title: "Self-Assessment",
     description:
-      "Contributed sketch note imagery to accompany each lesson. These help provide visual representation of what is being taught.",
-    url: "https://github.com/microsoft/web-dev-for-beginners",
+      "This questionnaire will guide you through nine categories oriented towards achieving the greatest benefit from this ecosystem for your technological upskilling.",
+    url: "https://itesm.co1.qualtrics.com/jfe/form/SV_eIJJo0jSck0DkHk",
   },
   {
-    title: "My Resume Site",
+    title: "Resources",
     description:
-      "Created from Microsoft's resume workshop and deployed to GitHub pages. Includes my experience and design abilities.",
+      "Here you will find the following resources:",
     url: "https://github.com/microsoft/workshop-library/tree/main/full/build-resume-website",
   },
-  {
+  {/*{
     title: "GitHub Codespaces and github.dev",
     description:
       "Video interview to explain when to use GitHub.dev versus GitHub Codespaces, and how best to use each tool.",
     url: "https://www.youtube.com/watch?v=c3hHhRME_XI",
-  },
+  },*/}
 ];
 
 const Portfolio = () => {

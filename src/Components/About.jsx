@@ -24,7 +24,7 @@ const imageAltText = "purple and blue abstract background";
  * Sort description that expands on your title on the Home component.
  */
 const description =
-  "I'm a UI/UX student studying at Barnett Technical University. I enjoy creating unique and simplistic user interfaces in creative ways.";
+  "Is a development offer created to boost your personal and professional growth throughout this digital transformation. It provides you with learning experiences and a growth mindset.";
 
 /**
  * List of some of skills or technologies you work on, are learning,
@@ -60,10 +60,10 @@ const About = () => {
           textAlign: "center",
         }}
       >
-        <h2>About Myself</h2>
+        <h2>What is TechSavvy?</h2>
         <p className="large">{description}</p>
         <hr />
-        <ul
+        {/*<ul
           style={{
             textAlign: "left",
             columns: 2,
@@ -75,9 +75,12 @@ const About = () => {
           {skillsList.map((skill) => (
             <li key={skill}>{skill}</li>
           ))}
-        </ul>
+          </ul>*/}
+        <iframe id="kaltura_player_1648167443" src="https://cdnapisec.kaltura.com/p/4194723/sp/419472300/embedIframeJs/uiconf_id/48332583/partner_id/4194723?iframeembed=true&amp;playerId=kaltura_player_1648167443&amp;entry_id=1_x3v4ckb0" width="100%" height="300px" allowfullscreen="" webkitallowfullscreen="" mozallowfullscreen="" allow="fullscreen *; encrypted-media *" frameborder="0"></iframe>
         <hr />
-        <p style={{ padding: "1rem 3rem 0" }}>{detailOrQuote}</p>
+        {/*<p style={{ padding: "1rem 3rem 0" }}>{detailOrQuote}</p>*/}
+        {/*aqui va lo de Meet the TechSavvy Library */}
+        
       </div>
     </section>
   );
