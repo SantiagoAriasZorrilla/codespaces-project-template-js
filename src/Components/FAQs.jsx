@@ -1,14 +1,31 @@
 import React from "react";
 
+import Dropdown from 'react-bootstrap/Dropdown';
+import DropdownButton from 'react-bootstrap/DropdownButton';
+
 const FAQs = () => {
     return (
-      
+      <Dropdown>
+        <DropdownButton id="dropdown-item-button" title="1. What can I do if I don't get my TechSavvy-Self Assessment results??">
+          Contact Tecservices to share your results sheet.
+        </DropdownButton>
+        {/*
+        <Dropdown.ItemText>
+        Contact Tecservices to share your results sheet.
+    </Dropdown.ItemText>*/}
+        
+      </Dropdown>/*
       <div class="accordion" id="accordionExample">
       <div class="accordion-item">
         <h2 class="accordion-header" id="headingOne">
-          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+          <Dropdown.Toggle variant="success" id="dropdown-basic">
             <strong>1. What can I do if I don't get my TechSavvy-Self Assessment results??</strong>
-          </button>
+          </Dropdown.Toggle>
+          <Dropdown.Menu>
+            <Dropdown.ItemText>
+            Contact Tecservices to share your results sheet.
+            </Dropdown.ItemText>
+          </Dropdown.Menu>
         </h2>
         <div id="collapseOne" class="accordion-collapse collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
           <div class="accordion-body">
@@ -76,7 +93,7 @@ const FAQs = () => {
           </div>
         </div>
       </div>
-    </div>
+    </div>*/
     );
   };
   

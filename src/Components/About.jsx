@@ -16,9 +16,9 @@ import React from "react";
  * Need an image? Check out https://unsplash.com to download a image you
  * freely use on your site.
  */
-import image from "../images/mosaic.svg";
+import image from "../images/rectoria-tec-de-monterrey-regreso-consciente.jpg";
 
-const imageAltText = "purple and blue abstract background";
+const imageAltText = "rectoria tec de monterrey";
 
 /**
  * Sort description that expands on your title on the Home component.
@@ -29,7 +29,8 @@ const description =
 /**
  * List of some of skills or technologies you work on, are learning,
  * passionate about, or enjoy,
- */
+ */ 
+/*
 const skillsList = [
   "Web design",
   "User experience",
@@ -37,15 +38,15 @@ const skillsList = [
   "Focus group testing",
   "Mobile user interfaces",
   "Graphic design",
-];
+];*/
 
 /**
  * Use this to give more information about what you are passionate about,
  * how you best work, or even a quote. This will help someone learn more
  * about you on a professional level.
  */
-const detailOrQuote =
-  "I am passionate about solving problems in new creative ways to drive innovation. By leveraging my UI/UX experience I continually look for new and better ways to make tech accessible by all.";
+/*const detailOrQuote =
+  "I am passionate about solving problems in new creative ways to drive innovation. By leveraging my UI/UX experience I continually look for new and better ways to make tech accessible by all.";*/
 
 const About = () => {
   return (
@@ -80,7 +81,6 @@ const About = () => {
         <hr />
         {/*<p style={{ padding: "1rem 3rem 0" }}>{detailOrQuote}</p>*/}
         {/*aqui va lo de Meet the TechSavvy Library */}
-        
       </div>
     </section>
   );

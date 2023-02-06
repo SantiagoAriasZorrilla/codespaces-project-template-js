@@ -1,5 +1,5 @@
 /**
- * Portfolio component
+ * MoreInfo component
  *
  * Highlights some of  your creations. These can be designs, websites,
  * open source contributions, articles you've written and more.
@@ -19,7 +19,7 @@ import React from "react";
  * Need an image? Check out https://unsplash.com to download a photo you
  * freely use on your site.
  */
-import image from "../images/design-desk.jpeg";
+import image from "../images/convenio-pearson-tec-estado-de-mexico-cem.jpg";
 
 const imageAltText = "desktop with books and laptop";
 
@@ -56,10 +56,10 @@ const projectList = [
   },*/}
 ];
 
-const Portfolio = () => {
+const MoreInfo = () => {
   return (
-    <section className="light" id="portfolio">
-      <h2>Portfolio</h2>
+    <section className="light" id="moreInfo">
+      <h2>More Info</h2>
       <div style={{ display: "flex", flexDirection: "row", paddingTop: "3rem" }}>
         <div style={{ maxWidth: "40%", alignSelf: "center" }}>
           <img
@@ -83,4 +83,4 @@ const Portfolio = () => {
   );
 };
 
-export default Portfolio;
+export default MoreInfo;
